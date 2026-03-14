@@ -25,13 +25,15 @@ Clean, commented, production-ready code
 Usage
 
 Install dependencies:
-
+```bash
 pip install numpy scikit-learn  
-  
+```  
 2. Run the project:  
+```bash
 python house_price_prediction.py  
-  
+```  
 3. Example prediction:  
+```python
 # Predict price for a new house  
 new_house = np.array([[2000, 4, 2]])  
 predicted_price = model.predict(new_house)  
@@ -50,7 +52,7 @@ X = [
 ]  
   
 y = [200000, 240000, 300000, 360000]  
-  ```
+```
 Repository Structure:  
   
 house-price-prediction/  
@@ -58,12 +60,14 @@ house-price-prediction/
   
 Technologies & Libraries:  
   
-Python 3.x – Programming language  
-NumPy – Efficient array handling and numeric operations  
-scikit-learn – Linear Regression model  
-Notes  
-The project demonstrates prediction for new inputs using the learned model.  
-Features (X) and target (y) are properly mapped, and the code is well-commented.  
-This project is professional and internship-ready, suitable for demonstrating practical regression skills.  
+-Python 3.x – Programming language  
+-NumPy – Efficient array handling and numeric operations  
+-scikit-learn – Linear Regression model  
+
+Notes:
+
+-The project demonstrates prediction for new inputs using the learned model.  
+-Features (X) and target (y) are properly mapped, and the code is well-commented.  
+-This project is professional and internship-ready, suitable for demonstrating practical regression skills.  
 
 
