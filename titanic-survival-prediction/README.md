@@ -51,11 +51,11 @@ The goal of this project is to build a machine learning model that can predict w
 
 Titanic Survival Prediction/
 │
-├── README.md               → Project overview, features, setup, and portfolio description
-├── app.py                  → Streamlit web application (main entry point for deployment)
-├── titanicproject.py       → Model training, preprocessing, and experimentation code
-├── model.pkl               → Trained machine learning model used by the app
-├── requirements.txt        → List of dependencies required to run/deploy the project
+├── README.md               → Project overview, features, setup, and portfolio description.
+├── app.py                  → Streamlit web application (main entry point for deployment).
+├── titanicproject.py       → Model training, preprocessing, and experimentation code.
+├── model.pkl               → Trained machine learning model used by the app.
+├── requirements.txt        → List of dependencies required to run/deploy the project.
 ---
 
 ## 🚀 How to Run Locally
