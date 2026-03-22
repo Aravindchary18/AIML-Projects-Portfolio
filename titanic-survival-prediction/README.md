@@ -4,6 +4,12 @@ A professional end-to-end Machine Learning project that predicts passenger survi
 
 ---
 
+## 🌐 Live Demo: 
+
+🔗
+https://titanic-survival-prediction-aravind.streamlit.app
+
+
 ## 🔍 Project Objective
 
 The goal of this project is to build a machine learning model that can predict whether a passenger would survive the Titanic disaster based on key input features such as passenger class, gender, age, and fare. The project also focuses on deploying the model as an interactive web application for real-time inference.
