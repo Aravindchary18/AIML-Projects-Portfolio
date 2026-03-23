@@ -1,50 +1,124 @@
-# AIML Projects Portfolio
+# 🤖 AIML Projects Portfolio
 
-A collection of **three production-ready machine learning projects** built with **Python, NumPy, and scikit-learn**, demonstrating expertise in **supervised learning** for **regression** and **classification** tasks.
+A collection of Machine Learning projects demonstrating end-to-end workflows including data preprocessing, model training, evaluation, and deployment using Streamlit. This portfolio showcases practical understanding of both classification and regression problems along with real-world application development.
 
-**Key Skills Demonstrated:**
-- Model training and evaluation with scikit-learn
-- Multi-feature regression and binary classification
-- NumPy for efficient numerical computations
-- Production-grade code with comprehensive documentation
-
-## 🚀 Featured Projects
-
-### House Price Prediction
-**Multiple Linear Regression** • Multi-feature modeling  
-Estimates house prices using size, rooms, and age with **R² = 0.92** performance.  
-*Skills: Multi-variate regression, feature engineering, prediction pipelines*
-
-### Student Score Prediction
-**Linear Regression** • Single-feature prediction  
-Predicts student exam scores based on study hours with **MAE < 5%** on test data.  
-*Skills: Regression modeling, feature scaling, model evaluation*
-
-### Titanic Survival Prediction
-**Decision Tree Classifier** • 85% Accuracy  
-Predicts passenger survival using demographic and class features.  
-*Skills: Classification, categorical encoding, tree-based modeling*
-
-## 📁 Repository Structure
-
-aiml-projects/
-├── README.md
-├── house-price-prediction/
-│   └── house_price_prediction.py
-├── student-score-prediction/
-│   └── student_score_prediction.py
-└── titanic-survival-prediction/
-└── titanic_survival_prediction.py
-
-
-## 🛠️ Technologies Stack
-| Category | Technologies |
-|----------|--------------|
-| Language | Python 3.x |
-| Data Processing | NumPy
-| Machine Learning | scikit-learn (LinearRegression, DecisionTreeClassifier) |
-
-**3 Working ML Models:** House Price Prediction, Student Score Prediction, Titanic Survival
 ---
 
-**Built with ❤️ for AIML internship applications** | **March 2026**
+## 🌐 Live Applications
+
+### 🚢 Titanic Survival Prediction (Classification)
+🔗 https://titanic-survival-prediction-aravind.streamlit.app  
+Predicts passenger survival using classification models.
+
+---
+
+### 🏠 House Price Prediction (Regression)
+🔗 https://house-app-by-aravind.streamlit.app  
+Predicts house prices based on key property features.
+
+---
+
+## 📂 Projects Overview
+
+### 1️⃣ Titanic Survival Prediction
+- Type: Classification  
+- Models: Logistic Regression, Decision Tree  
+- Metrics: Accuracy, Precision, Recall, F1-score  
+- Features: Pclass, Sex, Age, Fare  
+- Includes: Data preprocessing, model comparison, Streamlit app  
+
+📁 `titanic-survival-prediction`
+
+---
+
+### 2️⃣ House Price Prediction
+- Type: Regression  
+- Model: Linear Regression  
+- Metrics: RMSE, R² Score  
+- Features: GrLivArea, BedroomAbvGr, YearBuilt, OverallQual, FullBath, GarageCars  
+- Includes: Feature selection, model training, Streamlit app  
+
+📁 `house-price-prediction`
+
+---
+
+### 3️⃣ Student Score Prediction (Basic ML)
+- Type: Regression  
+- Model: Linear Regression  
+- Feature: Study Hours  
+- Output: Predicted exam score  
+- Concepts Demonstrated:
+  - Model training using `fit()`
+  - Prediction using `predict()`
+  - Understanding relationship between input and output  
+
+📁 `student-score-prediction`
+
+---
+
+## 🛠️ Tech Stack
+
+- Python  
+- NumPy  
+- pandas  
+- scikit-learn  
+- Streamlit  
+- joblib  
+
+---
+
+## 🎯 Skills Demonstrated
+
+- Machine Learning (Classification & Regression)  
+- Data Preprocessing and Feature Selection  
+- Model Training and Evaluation  
+- Model Comparison and Selection  
+- Regression Metrics (RMSE, R² Score)  
+- Classification Metrics (Accuracy, Precision, Recall, F1-score)  
+- Model Deployment using Streamlit  
+- Building Interactive Web Applications  
+- Working with Real-world Datasets  
+
+---
+
+## 📌 Key Highlights
+
+- Developed **2 fully deployed ML web applications**  
+- Built **end-to-end ML pipelines** from training to deployment  
+- Implemented both **basic and intermediate-level ML projects**  
+- Demonstrated strong understanding of **core ML concepts**  
+- Created **clean, structured, and portfolio-ready projects**  
+
+---
+
+## 🚀 How to Run Projects
+
+1. Clone the repository:
+
+git clone https://github.com/Aravindchary18/AIML-Projects-Portfolio.git  
+cd AIML-Projects-Portfolio  
+
+2. Navigate to any project folder:
+
+cd house-price-prediction  
+
+3. Install dependencies:
+
+pip install -r requirements.txt  
+
+4. Run the app:
+
+streamlit run house_app.py  
+
+---
+
+## 👨‍💻 Author
+
+- Aravind Nannabattuni  
+- GitHub: https://github.com/Aravindchary18  
+
+---
+
+## ⚠️ Disclaimer
+
+These projects are developed for educational and portfolio purposes. Predictions are based on trained models and may not reflect real-world outcomes.
