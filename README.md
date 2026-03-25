@@ -1,124 +1,114 @@
-# 🤖 AIML Projects Portfolio
+# 🤖 AIML Projects Portfolio — Aravind Nannabattuni
 
-A collection of Machine Learning projects demonstrating end-to-end workflows including data preprocessing, model training, evaluation, and deployment using Streamlit. This portfolio showcases practical understanding of both classification and regression problems along with real-world application development.
-
----
-
-## 🌐 Live Applications
-
-### 🚢 Titanic Survival Prediction (Classification)
-🔗 https://titanic-survival-prediction-aravind.streamlit.app  
-Predicts passenger survival using classification models.
+A curated portfolio of Machine Learning projects demonstrating practical implementation of supervised learning, model evaluation, and deployment using real-world datasets. This repository showcases hands-on experience in data preprocessing, feature engineering, model building, and deploying interactive web applications.
 
 ---
 
-### 🏠 House Price Prediction (Regression)
-🔗 https://house-app-by-aravind.streamlit.app  
-Predicts house prices based on key property features.
+## 📌 About Me
+
+- 🎓 B.Tech AIML Student  
+- 📊 Strong foundation in Machine Learning using Python  
+- 🧠 Experience in both structured data modeling and text-based classification (NLP)  
+- 💻 Focused on building real-world, deployable ML applications  
 
 ---
 
-## 📂 Projects Overview
+## 🚀 Projects
 
-### 1️⃣ Titanic Survival Prediction
-- Type: Classification  
-- Models: Logistic Regression, Decision Tree  
-- Metrics: Accuracy, Precision, Recall, F1-score  
-- Features: Pclass, Sex, Age, Fare  
-- Includes: Data preprocessing, model comparison, Streamlit app  
+### 1. 🚢 Titanic Survival Prediction
+- Predicts passenger survival using classification models  
+- Compared Logistic Regression and Decision Tree  
+- Selected best model based on F1-score  
+- Deployed using Streamlit  
 
-📁 `titanic-survival-prediction`
-
----
-
-### 2️⃣ House Price Prediction
-- Type: Regression  
-- Model: Linear Regression  
-- Metrics: RMSE, R² Score  
-- Features: GrLivArea, BedroomAbvGr, YearBuilt, OverallQual, FullBath, GarageCars  
-- Includes: Feature selection, model training, Streamlit app  
-
-📁 `house-price-prediction`
+🔗 Live App: https://titanic-survival-prediction-aravind.streamlit.app  
 
 ---
 
-### 3️⃣ Student Score Prediction (Basic ML)
-- Type: Regression  
-- Model: Linear Regression  
-- Feature: Study Hours  
-- Output: Predicted exam score  
-- Concepts Demonstrated:
-  - Model training using `fit()`
-  - Prediction using `predict()`
-  - Understanding relationship between input and output  
+### 2. 📩 SMS Spam Classifier (NLP)
+- Classifies SMS messages as Spam or Not Spam  
+- Uses TF-IDF for text feature extraction  
+- Logistic Regression for classification  
+- Demonstrates practical Natural Language Processing workflow  
+- Deployed using Streamlit  
 
-📁 `student-score-prediction`
+🔗 Live App: https://spam-classifier-aravind-19.streamlit.app  
+
+---
+
+### 3. 🏠 House Price Prediction
+- Predicts house prices using Linear Regression  
+- Evaluated using MSE, RMSE, and R² score  
+- Focus on regression modeling and performance evaluation  
+- Deployed using Streamlit  
+
+🔗 Live App: https://house-app-by-aravind.streamlit.app  
+
+---
+
+### 4. 🎓 Student Score Prediction
+- Predicts student performance based on input features  
+- Implemented using NumPy and Linear Regression  
+- Demonstrates understanding of core ML fundamentals  
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Python (NumPy, Pandas, Matplotlib, scikit-learn)  
+- Machine Learning Algorithms:
+  - Logistic Regression  
+  - Decision Trees  
+  - Linear Regression  
+- Model Evaluation:
+  - Accuracy, Precision, Recall, F1-score  
+  - Confusion Matrix  
+  - MSE, RMSE, R²  
+- Feature Engineering & Data Preprocessing  
+- Text Vectorization (TF-IDF) — NLP  
+- Model Deployment using Streamlit  
+- Version Control using Git & GitHub  
 
 ---
 
 ## 🛠️ Tech Stack
 
 - Python  
-- NumPy  
-- pandas  
 - scikit-learn  
+- pandas  
+- NumPy  
 - Streamlit  
-- joblib  
+- pickle / joblib  
 
 ---
 
-## 🎯 Skills Demonstrated
+## 📂 Repository Structure
 
-- Machine Learning (Classification & Regression)  
-- Data Preprocessing and Feature Selection  
-- Model Training and Evaluation  
-- Model Comparison and Selection  
-- Regression Metrics (RMSE, R² Score)  
-- Classification Metrics (Accuracy, Precision, Recall, F1-score)  
-- Model Deployment using Streamlit  
-- Building Interactive Web Applications  
-- Working with Real-world Datasets  
+Spam-Classifier/  
+house-price-prediction/  
+student-score-prediction/  
+titanic-survival-prediction/  
+README.md
 
 ---
 
 ## 📌 Key Highlights
 
-- Developed **2 fully deployed ML web applications**  
-- Built **end-to-end ML pipelines** from training to deployment  
-- Implemented both **basic and intermediate-level ML projects**  
-- Demonstrated strong understanding of **core ML concepts**  
-- Created **clean, structured, and portfolio-ready projects**  
-
----
-
-## 🚀 How to Run Projects
-
-1. Clone the repository:
-
-git clone https://github.com/Aravindchary18/AIML-Projects-Portfolio.git  
-cd AIML-Projects-Portfolio  
-
-2. Navigate to any project folder:
-
-cd house-price-prediction  
-
-3. Install dependencies:
-
-pip install -r requirements.txt  
-
-4. Run the app:
-
-streamlit run house_app.py  
+- End-to-end ML pipeline from data preprocessing to deployment  
+- Both classification and regression problem solving  
+- Practical implementation of basic NLP using TF-IDF  
+- Real-world project deployment with interactive UI  
+- Clean and structured project organization  
 
 ---
 
 ## 👨‍💻 Author
 
-- Aravind Nannabattuni  
-- GitHub: https://github.com/Aravindchary18  
+**Aravind Nannabattuni**  
+🔗 GitHub: https://github.com/Aravindchary18  
 
 ---
 
 ## ⚠️ Disclaimer
 
-These projects are developed for educational and portfolio purposes. Predictions are based on trained models and may not reflect real-world outcomes.
+This repository is built for educational and portfolio purposes. Models are trained on sample datasets and may not generalize to all real-world scenarios.
