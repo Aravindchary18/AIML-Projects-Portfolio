@@ -68,17 +68,13 @@ Confusion Matrix:
 
 ## 📂 Project Structure
 
-spam-classifier/
 ├── README.md  
 ├── SMS_SPAM_CLASSIFIER.py  
-├── spam_app.py  
 ├── model.pkl  
-├── vectorizer.pkl  
-├── spam.csv  
 ├── requirements.txt  
-
----
-
+├── spam.csv  
+├── spam_app.py  
+├── vectorizer.pkl
 ---
 
 ## 🚀 How to Run Locally
